@@ -14,19 +14,19 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.modulrsignal.com'),
-  title: 'Modulr — Supply Intelligence for Agentic Advertising',
+  title: 'Modulr IQ — Supply Intelligence for Agentic Advertising',
   description: 'Make podcast, CTV, and streaming media discoverable to AI buying systems with machine-readable supply intelligence.',
   keywords: ['agentic advertising', 'supply intelligence', 'AI advertising', 'podcast advertising', 'CTV advertising', 'machine-readable media', 'supply descriptors'],
   alternates: { canonical: '/' },
   openGraph: {
-    title: 'Make your media discoverable to AI.',
-    description: 'Supply intelligence for agentic advertising.',
+    title: 'The market doesn’t need more AI-generated noise. It needs meaning.',
+    description: 'Modulr is the supply intelligence layer for agentic advertising.',
     url: 'https://www.modulrsignal.com',
     siteName: 'Modulr',
     type: 'website',
-    images: [{ url: '/og.png', width: 1731, height: 909, alt: 'Make your media discoverable to AI.' }],
+    images: [{ url: '/og-v2.png', width: 1729, height: 910, alt: 'The market doesn’t need more AI-generated noise. It needs meaning.' }],
   },
-  twitter: { card: 'summary_large_image', title: 'Make your media discoverable to AI.', description: 'Supply intelligence for agentic advertising.', images: ['/og.png'] },
+  twitter: { card: 'summary_large_image', title: 'The market doesn’t need more AI-generated noise. It needs meaning.', description: 'Modulr is the supply intelligence layer for agentic advertising.', images: ['/og-v2.png'] },
 };
 
 export default function RootLayout({
@@ -41,7 +41,7 @@ export default function RootLayout({
       >
         {children}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          '@context': 'https://schema.org', '@type': 'Organization', name: 'Modulr', url: 'https://www.modulrsignal.com',
+          '@context': 'https://schema.org', '@type': 'Organization', name: 'Modulr', alternateName: 'Modulr IQ', url: 'https://www.modulrsignal.com',
           description: 'The supply intelligence layer for agentic advertising.',
           sameAs: ['https://www.linkedin.com/company/modulrai']
         }) }} />

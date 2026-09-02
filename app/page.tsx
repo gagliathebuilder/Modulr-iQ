@@ -13,13 +13,13 @@ export default function Home() {
 
     <section className="v2Hero">
       <div className="heroNoise" aria-hidden="true" />
-      <div className="heroMeta"><span>SUPPLY INTELLIGENCE / AGENTIC ADVERTISING</span><span>SYS.STATUS <b>ACTIVE</b></span></div>
+      <div className="heroMeta"><span>SUPPLY INTELLIGENCE FOR AGENTIC ADVERTISING</span><span>MODULR / IQ <b>EXPLORATION</b></span></div>
       <div className="heroStatement">
-        <p>THE MARKET DOESN’T NEED<br/>MORE AI-GENERATED NOISE.</p>
-        <h1>IT NEEDS<br/><em>MEANING.</em></h1>
+        <p>INTELLIGENCE, BEFORE EXECUTION.</p>
+        <h1>BRINGING MEANING<br/><em>TO MEDIA.</em></h1>
       </div>
       <div className="heroBottom">
-        <div className="heroCanonical"><strong>Modulr is the supply intelligence layer for agentic advertising.</strong><p>We bring meaning to media so machines can transact with intent, not guesswork.</p><div><a href="#system">SEE THE SYSTEM ↓</a><a href="mailto:hello@modulrsignal.com?subject=Modulr%20Pilot">REQUEST ACCESS ↗</a></div></div>
+        <div className="heroCanonical"><strong>Modulr is the supply intelligence layer for agentic advertising.</strong><p>We bring meaning to media so machines can transact with intent, not guesswork.</p><div><a href="#system">Discover how</a><a href="mailto:hello@modulrsignal.com?subject=Modulr%20Pilot">Request pilot access ↗</a></div></div>
         <div className="intelligenceGrid" aria-label="Modulr intelligence transformation">
           {cells.map(([a,b],i)=><div key={a} className={`cell c${i}`}><small>0{i+1}</small><b>{a}</b><span>{b}</span></div>)}
           <div className="gridCore"><span>MODULR</span><b>IQ</b><i>MEANING<br/>ENGINE</i></div>
@@ -30,8 +30,8 @@ export default function Home() {
 
     <section className="truth" id="system">
       <div className="sectionTag"><b>01</b> THE INTELLIGENCE GAP <span>SCROLL / EXPAND</span></div>
-      <div className="truthHeadline"><span>EVERYONE IS BUILDING</span><h2>FASTER<br/>EXECUTION.</h2><i>01</i></div>
-      <div className="truthHeadline inverse"><span>ALMOST NO ONE IS FIXING</span><h2>BAD<br/>INPUTS.</h2><i>02</i></div>
+      <div className="truthHeadline"><span>THE EXECUTION LAYER</span><h2>Moves<br/>faster.</h2><i>01</i></div>
+      <div className="truthHeadline inverse"><span>THE INTELLIGENCE LAYER</span><h2>Sees<br/>deeper.</h2><i>02</i></div>
       <div className="truthPayoff"><p>Buying systems changed.<br/><strong>Supply descriptions didn’t.</strong></p><div><span>THE OLD WORLD</span><code>category: "business"<br/>audience: "unknown"<br/>meaning: null</code></div><div className="acid"><span>WITH MODULR</span><code>intent: "business_growth"<br/>evidence: "traceable"<br/>confidence: 0.91</code></div></div>
     </section>
 
@@ -50,13 +50,13 @@ export default function Home() {
     </section>
 
     <section className="proof">
-      <div className="proofWord">NOT<br/><i>AI</i><br/>THEATER.</div>
-      <div className="proofContent"><span>THE PRODUCT TEST</span><h2>Can your AI explain<br/>why it chose that media?</h2><p>If the answer is no, it didn’t understand the supply. It guessed. Modulr makes every descriptor traceable to publisher-owned evidence and a governed evaluation contract.</p><div className="proofChecks"><b>✓ EVIDENCE-BACKED</b><b>✓ REPRODUCIBLE</b><b>✓ EXPLAINABLE</b><b>✓ PORTABLE</b></div></div>
+      <div className="proofWord">EVIDENCE<br/><i>OVER</i><br/>ASSERTION.</div>
+      <div className="proofContent"><span>INTELLIGENCE YOU CAN TRUST</span><h2>Every decision should<br/>have a reason.</h2><p>Modulr makes every descriptor traceable to publisher-owned evidence and a governed evaluation contract—so machines can understand not only what to choose, but why.</p><div className="proofChecks"><b>✓ EVIDENCE-BACKED</b><b>✓ REPRODUCIBLE</b><b>✓ EXPLAINABLE</b><b>✓ PORTABLE</b></div></div>
     </section>
 
     <section className="contentEngine">
       <div className="sectionTag"><b>03</b> THE INTELLIGENCE DESK <span>LEARN / SIGNAL SHIFT</span></div>
-      <div className="contentIntro"><h2>BUILD THE MARKET.<br/><em>TEACH THE MARKET.</em></h2><p>Two publishing systems. One makes the category legible. The other calls the shift before everyone else.</p></div>
+      <div className="contentIntro"><h2>A NEW MARKET NEEDS<br/><em>A SHARED LANGUAGE.</em></h2><p>Learn makes the category legible. Signal Shift makes sense of where it is going.</p></div>
       <div className="contentDoors">
         <a className="learnDoor" href="/learn"><div className="doorMeta"><span>STRUCTURED KNOWLEDGE BASE</span><b>12 MODULES / 5 PROTOCOLS</b></div><h3>LEARN<span>→</span></h3><p>AI-native advertising without the conference-panel fog. Foundations, protocols, glossary, and role-based paths.</p><div className="miniStack"><i>FOUNDATIONS</i><i>PROTOCOLS</i><i>GLOSSARY</i><i>PATHS</i></div></a>
         <a className="shiftDoor" href="/signal-shift"><div className="doorMeta"><span>FIELD NOTES FROM THE EDGE</span><b>ISSUE 006 / LIVE</b></div><h3>SIGNAL<br/>SHIFT<span>↗</span></h3><p>A series on the structural changes reshaping how content is valued, discovered, and monetized in a machine-driven market.</p><blockquote>“Four separate groups. Four separate rooms. Somehow they all started rhyming.”</blockquote></a>

@@ -1,8 +1,3 @@
-const cells = [
-  ['CONTENT','raw / owned'],['MEANING','resolved'],['EVIDENCE','traceable'],['INTENT','ready'],
-  ['PROVENANCE','verified'],['SUPPLY','legible'],['AGENTS','discover'],['MEDIA','moves'],
-];
-
 export default function Home() {
   return <main className="v2" id="top">
     <nav className="v2Nav">
@@ -14,15 +9,62 @@ export default function Home() {
     <section className="v2Hero">
       <div className="heroNoise" aria-hidden="true" />
       <div className="heroMeta"><span>SUPPLY INTELLIGENCE FOR AGENTIC ADVERTISING</span><span>MODULR / IQ <b>EXPLORATION</b></span></div>
-      <div className="heroStatement">
-        <p>INTELLIGENCE, BEFORE EXECUTION.</p>
-        <h1>BRINGING MEANING<br/><em>TO MEDIA.</em></h1>
-      </div>
-      <div className="heroBottom">
-        <div className="heroCanonical"><strong>Modulr is the supply intelligence layer for agentic advertising.</strong><p>We bring meaning to media so machines can transact with intent, not guesswork.</p><div><a href="#system">Discover how</a><a href="mailto:hello@modulrsignal.com?subject=Modulr%20Pilot">Request pilot access ↗</a></div></div>
-        <div className="intelligenceGrid" aria-label="Modulr intelligence transformation">
-          {cells.map(([a,b],i)=><div key={a} className={`cell c${i}`}><small>0{i+1}</small><b>{a}</b><span>{b}</span></div>)}
-          <div className="gridCore"><span>MODULR</span><b>IQ</b><i>MEANING<br/>ENGINE</i></div>
+      <div className="heroSystemRow">
+        <div className="heroPitch">
+          <p>THE MARKET DOESN’T NEED<br/>MORE AI-GENERATED NOISE.</p>
+          <h1>IT NEEDS<br/><em>MEANING.</em></h1>
+          <strong>Modulr is the supply intelligence layer for agentic advertising.</strong>
+          <span>We bring meaning to media so machines can transact with intent, not guesswork.</span>
+          <div><a className="primaryAction" href="#system">See the system →</a><a href="mailto:hello@modulrsignal.com?subject=Modulr%20Pilot">Request access →</a></div>
+        </div>
+
+        <div className="architectureMap" aria-label="Seller agents pass publisher supply through Modulr IQ and open protocols to buyer and activation systems">
+          <div className="mapTitle">FROM PUBLISHER SUPPLY<br/>TO MACHINE-READY ACTIVATION.</div>
+          <section className="mapPanel sellerPanel">
+            <header><b>SELLER AGENT</b><small>01</small></header>
+            <div className="mapItems">
+              <article><i>01</i><div><b>PUBLISHER SUPPLY</b><span>Owned inventory + metadata</span></div></article>
+              <article><i>02</i><div><b>CONTENT EVIDENCE</b><span>Audio, video, transcripts</span></div></article>
+              <article><i>03</i><div><b>INVENTORY CONTEXT</b><span>Placement, format, availability</span></div></article>
+            </div>
+          </section>
+
+          <div className="signalFlow flowIn" aria-hidden="true"><i/><i/><i/><i/><i/></div>
+
+          <section className="iqCore">
+            <span>MODULR</span><b>IQ</b><small>SUPPLY<br/>INTELLIGENCE</small>
+          </section>
+
+          <div className="protocolRail"><span>PROTOCOL LAYER</span><b>AdCP</b><b>MCP</b><b>A2A</b><small>Intelligence moves. Protocols transport.</small></div>
+
+          <div className="signalFlow flowOut" aria-hidden="true"><i/><i/><i/><i/><i/></div>
+
+          <section className="mapPanel buyerPanel">
+            <header><b>BUYER SYSTEMS</b><small>02</small></header>
+            <div className="mapItems">
+              <article><i>01</i><div><b>BUYER AGENTS</b><span>Discover + evaluate supply</span></div></article>
+              <article><i>02</i><div><b>AGENCY SYSTEMS</b><span>Plan with explainable signals</span></div></article>
+              <article><i>03</i><div><b>DSPs</b><span>Activate with confidence</span></div></article>
+            </div>
+          </section>
+
+          <div className="activationLink" aria-hidden="true" />
+
+          <section className="mapPanel activationPanel">
+            <header><b>ACTIVATION</b><small>03</small></header>
+            <div className="mapItems">
+              <article><i>01</i><div><b>SSP / EXCHANGE</b><span>Transact + route supply</span></div></article>
+              <article><i>02</i><div><b>AD SERVER</b><span>Deliver + measure</span></div></article>
+              <article><i>03</i><div><b>REPORTING</b><span>Return outcome signals</span></div></article>
+            </div>
+          </section>
+
+          <div className="mapSteps">
+            <div><b>01</b><span>ANALYZE</span><small>Deterministic signals</small></div>
+            <div><b>02</b><span>STRUCTURE</span><small>Machine-readable descriptors</small></div>
+            <div><b>03</b><span>VALIDATE</span><small>Provenance + confidence</small></div>
+            <div><b>04</b><span>DELIVER</span><small>Ready for agents</small></div>
+          </div>
         </div>
       </div>
       <div className="ticker"><div>BRINGING MEANING TO MEDIA <i>✦</i> PUBLISHER-ALIGNED <i>✦</i> EXECUTION-NEUTRAL <i>✦</i> PROTOCOL-AGNOSTIC <i>✦</i> AGENT-READY <i>✦</i> BRINGING MEANING TO MEDIA <i>✦</i></div></div>

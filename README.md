@@ -6,11 +6,20 @@ Modulr is the supply intelligence layer for agentic advertising. The site explor
 
 ## Current direction
 
-Version 3 meets between two earlier visual directions:
+Version 4 turns the architecture mockup into the homepage's primary product story:
+
+- Seller Agent — publisher supply, evidence, and inventory context
+- Modulr IQ — the supply intelligence layer
+- Protocol Layer — AdCP, MCP, and A2A beneath Modulr IQ
+- Buyer Systems — buyer agents, agency systems, and DSPs
+- Activation — SSP/exchange, ad server, and reporting
+
+Earlier directions remain preserved in Git:
 
 - V1: editorial clarity and conversion structure
 - V2: provocative AI/AdTech manifesto energy
 - V3: quiet product precision with enough category edge to remain distinctive
+- V4: high-impact system map with corrected agent, protocol, and activation boundaries
 
 “Modulr IQ” remains an identity exploration, not a finalized rebrand.
 
@@ -32,4 +41,3 @@ Create a production build with `npm run build`.
 ## Working approach
 
 Use issues for ideas, launch experiments, content gaps, and decisions. Keep each visual milestone in Git so directions can be compared or restored without overwriting earlier thinking.
-

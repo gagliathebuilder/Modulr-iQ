@@ -43,3 +43,13 @@ Lead with the category and problem before product mechanics:
 - Which repository owns visual identity and messaging canon
 - Whether the preview replaces the existing site or informs a production redesign
 
+## Homepage architecture decision — V4
+
+The homepage hero now uses a system map as the primary product explanation. It separates four roles that should not be collapsed:
+
+1. Seller Agent represents publisher-owned supply and context.
+2. Modulr IQ resolves and governs supply intelligence.
+3. Protocols transport that intelligence; they are not the product.
+4. Buyer and activation systems discover, decide, transact, deliver, and return outcomes.
+
+This remains a launch concept. It does not alter the existing production website.

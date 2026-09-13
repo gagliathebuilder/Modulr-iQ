@@ -74,3 +74,32 @@
 @media(max-width:1500px){.heroSystemRow{display:block}.architectureMap{width:100%;height:610px;grid-template-columns:minmax(190px,.95fr) 90px minmax(180px,1fr) 90px minmax(190px,.95fr) 36px minmax(185px,.92fr);transform:none;margin:84px auto 12px}.heroPitch h1{font-size:clamp(76px,10vw,148px)}}
 @media(max-width:1100px){.heroSystemRow{display:block}.heroPitch{padding:0;text-align:center}.architectureMap{display:flex;flex-direction:column;height:auto;width:100%;margin:70px 0 40px;transform:none;gap:18px}.mapSteps{width:100%;grid-template-columns:repeat(4,1fr)}}
 @media(max-width:760px){.v2Hero{padding:18px 16px 0}.heroSystemRow{padding:58px 0 52px}.heroPitch{text-align:left}.heroPitch h1{font-size:19vw}.heroPitch>strong,.heroPitch>span{margin-left:0}.heroPitch>div{justify-content:flex-start}.architectureMap{margin:56px 0 40px}.mapSteps{grid-template-columns:1fr 1fr}}
+
+/* V5 actual recovery — V3 homepage plus a dedicated system stage */
+.v5Home .v2Nav{height:74px;background:rgba(246,244,238,.92);color:#11120f;border-color:rgba(17,18,15,.1);backdrop-filter:blur(18px)}
+.v5Home .iqLogo span{color:#8a5e36}.v5Home .iqLogo i{color:#9c9990}
+.v5Home .v2NavLinks{font:500 11px Arial;letter-spacing:.02em;gap:30px}.v5Home .v2NavLinks a:hover{color:#8a5e36}
+.v5Home .navCta{border:0;background:#11120f;color:#f6f4ee;border-radius:999px;padding:11px 16px;font:600 11px Arial;letter-spacing:0}.v5Home .navCta span{color:#f6f4ee;margin-left:10px}
+.v5HomeHero{min-height:calc(100vh - 74px);background:radial-gradient(circle at 70% 52%,rgba(183,122,69,.12),transparent 23%),linear-gradient(180deg,#f6f4ee,#eeebe3);color:#11120f;padding:28px 4vw 0}
+.v5HomeHero .heroNoise{opacity:.06;background-size:70px 70px}
+.v5HomeHero .heroMeta{font:500 12px Arial;letter-spacing:.1em;color:#77756f}.v5HomeHero .heroMeta b{color:#8a5e36}
+.v5HomeHero .heroStatement{margin-top:9vh;text-align:center}.v5HomeHero .heroStatement p{font:600 13px Arial;letter-spacing:.18em;color:#77756f;margin-bottom:28px}
+.v5HomeHero .heroStatement h1{font-size:clamp(68px,9.4vw,150px);line-height:.86;letter-spacing:-.07em;font-weight:500}.v5HomeHero .heroStatement h1 em{color:#8a5e36;font-weight:400}
+.v5HomeHero .heroBottom{grid-template-columns:.72fr 1.28fr;margin-top:8vh;gap:8vw}.v5HomeHero .heroCanonical{padding-bottom:52px}.v5HomeHero .heroCanonical strong{font:400 clamp(22px,2.1vw,32px)/1.22 Arial;letter-spacing:-.025em}.v5HomeHero .heroCanonical p{color:#65645f;font-size:16px}.v5HomeHero .heroCanonical a{font:600 14px Arial;letter-spacing:0;border:0;color:#705033;padding:0}
+.v5HomeHero .intelligenceGrid{height:260px;background:rgba(255,255,255,.52);border-color:rgba(17,18,15,.13);border-radius:24px;overflow:hidden;box-shadow:0 25px 65px rgba(32,28,20,.08)}
+.v5HomeHero .cell{border-color:rgba(17,18,15,.1)}.v5HomeHero .cell small,.v5HomeHero .cell span{color:#79776f}.v5HomeHero .cell b{font:600 12px Arial;letter-spacing:.05em}
+.v5HomeHero .gridCore{background:linear-gradient(145deg,#ddba99,#9b693e);color:white;border-radius:50%;clip-path:none;width:148px;height:148px;transform:translate(-50%,-50%);box-shadow:inset 0 1px 1px rgba(255,255,255,.5),0 22px 55px rgba(112,80,51,.26)}
+.v5HomeHero .gridCore span{font:600 11px Arial}.v5HomeHero .gridCore b{font:italic 400 57px/.9 Georgia}.v5HomeHero .gridCore i{font:normal 8px Arial}
+.v5HomeHero .ticker{height:34px;background:rgba(255,255,255,.5);color:#66645e;border-color:rgba(17,18,15,.1);margin:0 -4vw}.v5HomeHero .ticker div{font:600 10px Arial;letter-spacing:.13em}.v5HomeHero .ticker i{color:#9b693e}
+.architectureStage{background:#080a09;color:#f1eee5;padding:34px clamp(24px,4vw,76px) 70px;border-bottom:1px solid rgba(241,238,229,.18)}
+.architectureKicker{display:flex;justify-content:space-between;align-items:center;max-width:1770px;margin:0 auto;padding:0 0 24px;border-bottom:1px solid rgba(241,238,229,.16);font:700 12px monospace;letter-spacing:.1em}.architectureKicker b{color:#c8ff00}
+.architectureStage .architectureMap{margin:28px auto 0}
+
+/* Signal Shift must read electric orange, never bronze */
+.shiftPage .signalOrb{background:#ff3b00;box-shadow:0 0 0 1px #ff3b00,0 0 110px rgba(255,59,0,.28)}
+.shiftPage .shiftHero>div:last-child>span,.shiftPage .shiftHero h1 em,.shiftPage .navCta span{color:#ff3b00}
+.shiftPage .shiftHero{background:radial-gradient(circle at 25% 50%,rgba(255,59,0,.22),transparent 27%),#080a09}
+.shiftPage .issueArchive>a:hover{background:#ff3b00}
+
+@media(max-width:1100px){.v5HomeHero .heroBottom{grid-template-columns:1fr;gap:36px}.v5HomeHero .heroCanonical{max-width:620px;padding-bottom:0}.architectureKicker{align-items:flex-start;gap:18px}.architectureKicker b{text-align:right}}
+@media(max-width:760px){.v5Home .v2Nav{height:60px}.v5HomeHero{padding:18px 16px 0}.v5HomeHero .heroStatement{text-align:left;margin-top:8vh}.v5HomeHero .heroStatement h1{font-size:18vw;line-height:.91}.v5HomeHero .heroBottom{margin-top:6vh}.v5HomeHero .ticker{margin-left:-16px;margin-right:-16px}.v5HomeHero .intelligenceGrid{border-radius:18px}.architectureStage{padding:34px 16px 58px}.architectureKicker{display:block}.architectureKicker b{display:block;text-align:left;margin-top:10px}}

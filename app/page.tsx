@@ -1,23 +1,35 @@
+const cells = [
+  ['CONTENT','raw / owned'],['MEANING','resolved'],['EVIDENCE','traceable'],['INTENT','ready'],
+  ['PROVENANCE','verified'],['SUPPLY','legible'],['AGENTS','discover'],['MEDIA','moves'],
+];
+
 export default function Home() {
-  return <main className="v2" id="top">
+  return <main className="v2 v5Home" id="top">
     <nav className="v2Nav">
       <a className="iqLogo" href="#top" aria-label="Modulr IQ home"><b>MODULR</b><span>IQ</span><i>IDENTITY STUDY / 01</i></a>
       <div className="v2NavLinks"><a href="#system">SYSTEM</a><a href="/learn">LEARN</a><a href="/signal-shift">SIGNAL SHIFT</a></div>
       <a className="navCta" href="mailto:hello@modulrsignal.com?subject=Modulr%20Pilot">ENTER PILOT <span>↗</span></a>
     </nav>
 
-    <section className="v2Hero">
+    <section className="v2Hero v5HomeHero">
       <div className="heroNoise" aria-hidden="true" />
       <div className="heroMeta"><span>SUPPLY INTELLIGENCE FOR AGENTIC ADVERTISING</span><span>MODULR / IQ <b>EXPLORATION</b></span></div>
-      <div className="heroSystemRow">
-        <div className="heroPitch">
-          <p>THE MARKET DOESN’T NEED<br/>MORE AI-GENERATED NOISE.</p>
-          <h1>IT NEEDS<br/><em>MEANING.</em></h1>
-          <strong>Modulr is the supply intelligence layer for agentic advertising.</strong>
-          <span>We bring meaning to media so machines can transact with intent, not guesswork.</span>
-          <div><a className="primaryAction" href="#system">See the system →</a><a href="mailto:hello@modulrsignal.com?subject=Modulr%20Pilot">Request access →</a></div>
+      <div className="heroStatement">
+        <p>INTELLIGENCE, BEFORE EXECUTION.</p>
+        <h1>BRINGING MEANING<br/><em>TO MEDIA.</em></h1>
+      </div>
+      <div className="heroBottom">
+        <div className="heroCanonical"><strong>Modulr is the supply intelligence layer for agentic advertising.</strong><p>We bring meaning to media so machines can transact with intent, not guesswork.</p><div><a href="#architecture">Discover how</a><a href="mailto:hello@modulrsignal.com?subject=Modulr%20Pilot">Request pilot access ↗</a></div></div>
+        <div className="intelligenceGrid" aria-label="Modulr intelligence transformation">
+          {cells.map(([a,b],i)=><div key={a} className={`cell c${i}`}><small>0{i+1}</small><b>{a}</b><span>{b}</span></div>)}
+          <div className="gridCore"><span>MODULR</span><b>IQ</b><i>MEANING<br/>ENGINE</i></div>
         </div>
+      </div>
+      <div className="ticker"><div>BRINGING MEANING TO MEDIA <i>✦</i> PUBLISHER-ALIGNED <i>✦</i> EXECUTION-NEUTRAL <i>✦</i> PROTOCOL-AGNOSTIC <i>✦</i> AGENT-READY <i>✦</i> BRINGING MEANING TO MEDIA <i>✦</i></div></div>
+    </section>
 
+    <section className="architectureStage" id="architecture">
+      <div className="architectureKicker"><span>THE AGENTIC SUPPLY PATH</span><b>SELLER → INTELLIGENCE → ACTIVATION</b></div>
         <div className="architectureMap" aria-label="Seller agents pass publisher supply through Modulr IQ and open protocols to buyer and activation systems">
           <div className="mapTitle">FROM PUBLISHER SUPPLY<br/>TO MACHINE-READY ACTIVATION.</div>
           <section className="mapPanel sellerPanel">
@@ -66,8 +78,6 @@ export default function Home() {
             <div><b>04</b><span>DELIVER</span><small>Ready for agents</small></div>
           </div>
         </div>
-      </div>
-      <div className="ticker"><div>BRINGING MEANING TO MEDIA <i>✦</i> PUBLISHER-ALIGNED <i>✦</i> EXECUTION-NEUTRAL <i>✦</i> PROTOCOL-AGNOSTIC <i>✦</i> AGENT-READY <i>✦</i> BRINGING MEANING TO MEDIA <i>✦</i></div></div>
     </section>
 
     <section className="truth" id="system">

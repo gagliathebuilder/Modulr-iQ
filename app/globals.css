@@ -103,3 +103,20 @@
 
 @media(max-width:1100px){.v5HomeHero .heroBottom{grid-template-columns:1fr;gap:36px}.v5HomeHero .heroCanonical{max-width:620px;padding-bottom:0}.architectureKicker{align-items:flex-start;gap:18px}.architectureKicker b{text-align:right}}
 @media(max-width:760px){.v5Home .v2Nav{height:60px}.v5HomeHero{padding:18px 16px 0}.v5HomeHero .heroStatement{text-align:left;margin-top:8vh}.v5HomeHero .heroStatement h1{font-size:18vw;line-height:.91}.v5HomeHero .heroBottom{margin-top:6vh}.v5HomeHero .ticker{margin-left:-16px;margin-right:-16px}.v5HomeHero .intelligenceGrid{border-radius:18px}.architectureStage{padding:34px 16px 58px}.architectureKicker{display:block}.architectureKicker b{display:block;text-align:left;margin-top:10px}}
+
+/* Locked launch palette — V3 composition, original Modulr black + neon */
+.v5Home .v2Nav{background:#080a09;color:#f1eee5;border-color:rgba(241,238,229,.16);backdrop-filter:none}
+.v5Home .iqLogo span{color:#c8ff00}.v5Home .iqLogo i{color:#666c66}
+.v5Home .v2NavLinks a:hover{color:#c8ff00}
+.v5Home .navCta{background:transparent;color:#f1eee5;border:1px solid rgba(241,238,229,.35);border-radius:2px;font-family:monospace}.v5Home .navCta span{color:#c8ff00}
+.v5HomeHero{background:radial-gradient(circle at 67% 61%,rgba(200,255,0,.1),transparent 26%),#080a09;color:#f1eee5}
+.v5HomeHero .heroNoise{opacity:.16;background-size:48px 48px}
+.v5HomeHero .heroMeta{color:#777d76;font-family:monospace;font-weight:700}.v5HomeHero .heroMeta b{color:#c8ff00}
+.v5HomeHero .heroStatement p{color:#a9aea7;font-family:monospace;font-weight:700}
+.v5HomeHero .heroStatement h1{font-weight:900}.v5HomeHero .heroStatement h1 em{color:#c8ff00}
+.v5HomeHero .heroCanonical strong{font-family:Georgia,serif;font-weight:600}.v5HomeHero .heroCanonical p{color:#a4a9a2}.v5HomeHero .heroCanonical a{color:#f1eee5;font-family:monospace;font-weight:700}.v5HomeHero .heroCanonical a:first-child{border-bottom:1px solid #c8ff00;padding-bottom:6px}
+.v5HomeHero .intelligenceGrid{background:rgba(10,14,11,.9);border-color:rgba(241,238,229,.2);border-radius:10px;box-shadow:0 0 70px rgba(200,255,0,.08)}
+.v5HomeHero .cell{border-color:rgba(241,238,229,.14)}.v5HomeHero .cell small,.v5HomeHero .cell span{color:#7d837c}.v5HomeHero .cell b{color:#f1eee5;font-family:monospace;font-weight:700}
+.v5HomeHero .gridCore{background:#c8ff00;color:#080a09;border-radius:0;clip-path:polygon(9% 0,100% 0,91% 100%,0 91%);box-shadow:0 0 58px rgba(200,255,0,.3)}
+.v5HomeHero .gridCore span,.v5HomeHero .gridCore i{font-family:monospace;font-weight:700}.v5HomeHero .gridCore b{color:#080a09}
+.v5HomeHero .ticker{background:#c8ff00;color:#080a09;border:0}.v5HomeHero .ticker div{font-family:monospace;font-weight:800}.v5HomeHero .ticker i{color:#080a09}
